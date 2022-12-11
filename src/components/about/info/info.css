@@ -1,0 +1,32 @@
+.info__content__wrapper{
+    background-color: #132347;
+    padding: 30px;
+    border-radius: 10px;
+}
+.info__content h2{
+    margin-bottom: 30px;
+}
+
+.info__content p{
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.social__links span a i {
+    color: #7865FF;
+}
+
+.social__links span{
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+.info__img{
+    background-color: #7765ff70;
+    border-radius: 10px;
+    height: 187px;
+}
+
+.info__img img{
+    object-fit: contain;
+}

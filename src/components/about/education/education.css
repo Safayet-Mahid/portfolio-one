@@ -1,0 +1,29 @@
+
+
+.ed__table{
+    border: none;
+    border-collapse: collapse;
+    border: 1px solid #132347;
+    border-radius: 5px;
+}
+
+th,td{
+    padding: 1.3rem 1rem;
+    font-size: 1rem;
+}
+
+thead{
+    background-color: #7865FF;
+    color: rgba(255, 255, 255, 0.788);
+}
+
+td{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.753);
+    font-weight: 400;
+}
+
+tr:nth-child(even){
+    background-color: #102048;
+
+}

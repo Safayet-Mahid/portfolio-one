@@ -1,0 +1,25 @@
+
+
+
+.single__award{
+    background-color: #132347;
+    padding: 20px;
+    border-radius: 5px;
+    border-bottom: 1px solid #7865ff;
+}
+
+.award__title span{
+    font-weight: 300;
+    color: #fff;
+    opacity: 70%;
+    font-size: .8rem;
+}
+
+.award__year{
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.award__item{
+    width: 47%;
+}

@@ -1,0 +1,72 @@
+/* ========== google fonts ================= */
+
+/* lato  */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Roboto:wght@500;700;900&display=swap');
+
+/* rubik  */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Roboto:wght@500;700;900&family=Rubik:wght@300;400;500;600&display=swap');
+
+/* ============ General styles  ================= */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #0E1B31;
+ 
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+h1,h2,h3,h4,h5,h6{
+  color: #fff;
+  font-family: "Lato",sans-serif;
+  margin: 0;
+}
+
+h1,h2{
+  font-style: 2rem;
+  font-weight: 500;
+}
+
+p{
+  color: #fff;
+  opacity: 75%;
+  font-style: 1rem;
+  font-weight: 400;
+  font-family: "Rubik",sans-serif;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+}
+
+a{
+  color: unset;
+  font-family: "Lato",sans-serif;
+}
+
+a:hover{
+  color: unset;
+}
+
+section,footer{
+  padding: 60px 0;
+}
+
+/* ====================CUSTOM SCROLL BAR ==================== */
+
+::-webkit-scrollbar{
+  width: 10px;
+  background-color: #282f4e;
+}
+
+::-webkit-scrollbar-thumb{
+  border-radius: 2em;
+  background-color: #7865ff;
+}
