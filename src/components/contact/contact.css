@@ -28,5 +28,8 @@
         font-size: .8rem;
     }
 
+    .single__info-box{
+        padding: 15px;
+    }
 }
 
