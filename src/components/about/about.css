@@ -1,4 +1,6 @@
-
+#about{
+    padding-top: 80px;
+}
 
 .about__btns{
     background-color: #10204B;
@@ -30,13 +32,13 @@
     border-radius: 0 0 5px 5px;
 }
 
-/* .about__content__wrapper{
+.about__content__wrapper{
     background-color: #132347;
     padding: 30px;
     border-radius: 10px;
-} */
+}
 
-/* .about__content h2{
+.about__content h2{
     margin-bottom: 30px;
 }
 
@@ -62,4 +64,19 @@
 
 .about__img img{
     object-fit: contain;
-} */
+}
+
+
+/* =============responsive============ */
+
+@media screen and (max-width:992px) {
+    
+    .about__btn{
+        padding: 10px 25px;
+        font-size: .9rem;
+    }
+
+    .about__btns{
+     margin-bottom: 40px;
+    }
+}

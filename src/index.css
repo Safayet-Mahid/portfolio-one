@@ -70,3 +70,11 @@ section,footer{
   border-radius: 2em;
   background-color: #7865ff;
 }
+
+
+/* ===========responsive=========== */
+@media screen and (max-width:992px) {
+  section{
+    padding: 40px 0;
+  }
+}

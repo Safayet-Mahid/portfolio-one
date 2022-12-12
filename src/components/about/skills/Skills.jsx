@@ -43,7 +43,8 @@ const Skills = () => {
   return (
     <div className="skills__wrapper d-flex gap-5">
 
-    <div className="frontend__skill w-50">
+    <div className="frontend__skill">
+        <h5 className='mb-4'>FrontEnd</h5>
 
         {
             frontendSkills.map((skill,index)=>(
@@ -52,8 +53,11 @@ const Skills = () => {
         }
 
     </div>
+    <hr className='border'/>
 
-    <div className="backend__skill w-50">
+    <div className="backend__skill">
+
+    <h5 className='mb-4'>BackEnd</h5>
     {
           backendSkills.map((skill,index)=>(
                 <SkillItem key={index} skill={skill}/>

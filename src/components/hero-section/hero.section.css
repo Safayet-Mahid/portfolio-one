@@ -38,7 +38,53 @@
     padding-top: 150px;
 }
 
-.hero__contentp{
+.hero__content p{
     line-height: 30px;
     font-weight: 300;
+    font-size: .9rem;
+}
+
+/* ================responsive ==================== */
+
+@media screen and (max-width:992px) {
+    
+    .hero__img{
+        width: 300px;
+        height: 300px;
+        margin: auto;
+        margin-bottom: 35px;
+        margin-top: 40px;
+    }
+
+    .hero__content{
+        font-size: .8rem;
+    }
+
+    .hero__btns botton{
+        display: block;
+        padding: 5px 20px;
+        font-size: .8rem;
+    }
+}
+
+/* @media screen {
+    
+} */
+@media screen and (max-width:576px) {
+    .hero__img{
+        margin: auto;
+        margin-bottom: 35px;
+    }
+    .hero__row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .hero__content{
+        margin-bottom: 50px;
+    }
+
+    .hero__title {
+        font-size: 1.5rem;
+    }
 }

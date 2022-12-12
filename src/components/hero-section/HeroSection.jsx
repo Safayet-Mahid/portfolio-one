@@ -26,7 +26,7 @@ const HeroSection = () => {
   return (
     <section className='hero__section' id='home'>
         <Container>
-            <Row>
+            <Row className='hero__row'>
                 <Col lg="6" md="6">
                     <div className="hero__content">
 

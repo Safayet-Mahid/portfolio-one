@@ -1,4 +1,6 @@
-
+#services{
+    padding-top: 80px;
+}
 .single__service{
     background-color: #132347;
     padding: 20px;
@@ -31,4 +33,16 @@
 
 .single__service:hover{
     transform: translateY(-15px);
+}
+
+
+@media screen and (max-width:992px) {
+    .single__service h2{
+        font-size: 1.3rem;
+        margin-bottom: 10px;
+    }
+    .single__service p{
+        font-size: .9rem;
+        line-height: 28px;
+    }
 }

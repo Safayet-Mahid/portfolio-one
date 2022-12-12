@@ -11,7 +11,7 @@
 .award__title span{
     font-weight: 300;
     color: #fff;
-    opacity: 70%;
+    opacity: 75%;
     font-size: .8rem;
 }
 
@@ -22,4 +22,21 @@
 
 .award__item{
     width: 47%;
+}
+
+
+/* ============responsive============  */
+
+@media screen and (max-width:992px) {
+    .award__title{
+        font-size: .9rem;
+    }
+
+    .award__title span{
+        font-size: .8rem;
+    }
+
+    .award__year span{
+        font-size: .8rem;
+    }
 }

@@ -1,0 +1,22 @@
+
+
+.footer{
+    border-top: 1px solid #7865ff85;
+    padding-top: 20px;
+}
+
+.footer p{
+    font-weight: 300;
+    font-size: .9rem;
+}
+.name{
+    color: #7865ff;
+    font-weight: 700;
+}
+
+/* ===========responsive=========== */
+@media screen and (max-width:992px) {
+    .footer p{
+        font-size: .7rem;
+    }
+}
